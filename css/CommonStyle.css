@@ -38,9 +38,10 @@ nav a {
 .currentPageTag {
     /* CUURENT PAGE NAV COLOUR*/
     background-color: #006D77;
-    border-style: solid;
+    
     border-width: 0.05em;
     border-radius: 15px;
+    border-bottom: solid;
 }
 
 .currentPageName {
@@ -59,7 +60,9 @@ article {
 }
 
                                         /*SECTION*/
-
+section {
+    padding: 2%;
+}
 
                                         /*HEADER*/
 
@@ -68,7 +71,8 @@ header {
 }
 
                                         /*ASIDE*/
-aside {
+aside section {
+    display: inline-block;
     border: 2px solid black;
     border-radius: 25px;
 }
@@ -118,12 +122,20 @@ article section dl dd a:hover{
 }
 
 #VisualDesignImg {
-    width: 30%;
+    width: 40%;
     height: auto;
     display: block;
-    border-radius: 8px;
     margin: 2%;
     float: left;
+}
+#HtmlCssLogoHomePage{
+    width:40%;
+    height: auto;
 
+    margin: 2%;
+    float: right;
+}
 
+.passedActivity {
+    text-decoration: line-through;
 }
