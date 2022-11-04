@@ -55,7 +55,6 @@ article {
     border-radius: 25px;
     margin: 3%;
     padding: 3%;
-
 }
 
 
@@ -63,4 +62,36 @@ article {
 
 header {
     text-align: center;
+}
+
+                                        /*ASIDE*/
+aside {
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+                                        /*LISTS*/
+
+article section dl dt a{
+    text-decoration: none;
+    color:black;
+}
+article section dl dt a:hover{
+    color:#006D77;
+    font-weight: bold;
+}
+     
+article section dl dd a{
+    text-decoration: none;
+    color:black;
+}
+article section dl dd a:hover{
+    color:#83C5BE;
+    font-weight: bold;
+}
+                                        /*LAYOUT*/
+
+.leftAside {
+    float: right;
+    width: 40%;
 }
