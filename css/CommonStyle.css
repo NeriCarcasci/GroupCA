@@ -46,6 +46,7 @@ nav a {
 .currentPageName {
     /* CUURENT PAGE TEXT NAV COLOUR*/
     color: #EDF6F9;
+    opacity: 0.4;
 }
                                         /*ARTICLE*/
 
@@ -56,6 +57,8 @@ article {
     margin: 3%;
     padding: 3%;
 }
+
+                                        /*SECTION*/
 
 
                                         /*HEADER*/
@@ -69,8 +72,19 @@ aside {
     border: 2px solid black;
     border-radius: 25px;
 }
-
+aside section a {
+    text-decoration: none;
+    color: #006D77;
+}
+.moduleInformation {
+    background-color: white;
+}
                                         /*LISTS*/
+
+.WeekNumber {
+    font-weight: bold;
+    list-style-type: none;
+}                                        
 
 article section dl dt a{
     text-decoration: none;
@@ -91,7 +105,25 @@ article section dl dd a:hover{
 }
                                         /*LAYOUT*/
 
-.leftAside {
+.pushLeft {
+    float: left;
+    width: 50%;
+    vertical-align: top;
+}
+
+.pushRight {
     float: right;
-    width: 40%;
+    width: 45%;
+    vertical-align: top;
+}
+
+#VisualDesignImg {
+    width: 30%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin: 2%;
+    float: left;
+
+
 }
