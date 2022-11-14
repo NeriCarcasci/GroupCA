@@ -140,3 +140,19 @@ article section dl dd a:hover{
 .passedActivity {
     text-decoration: line-through;
 }
+
+.socialTagLinkedin {
+    width: 5%;
+    height: auto;
+}
+.socialTagInstagram {
+    width: 3%;
+    height: auto;
+}
+
+.teamMemberBox {
+    background-color: #83C5BE;
+    border-radius: 25px;
+    width: 20%;
+    float: left;
+}
