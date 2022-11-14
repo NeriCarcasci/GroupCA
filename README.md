@@ -6,9 +6,7 @@
 > Please do not change the main files, when uploading add as a "branch"
 
 
-WE HAVE A COMMUNAL CSS, this means you can include only non specific style in the common tags. if you want to specify positioning use classes or id.
-
-Example:
+WE HAVE A COMMUNAL CSS
 
 ```
 section {
