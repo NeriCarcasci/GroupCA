@@ -47,12 +47,17 @@ nav a{
 }
 
 header{
+
+    text-align: center;
+
+}
+
+.header_titlebox{
+    border-radius: 1em;
     background-color: #caedf8;
     padding: 10px;
     margin-right: 30%;
     margin-left: 30%;
-    text-align: center;
-    border-radius: 1em;
 }
 
 header h1{
