@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     background-color: #FFDDD2;
+    
 }
 
 nav{
@@ -58,12 +59,31 @@ header h1{
     font-style: italic;
 }
 
-.index_article{
+article{
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+}
+
+.index_article{
     margin-top: 1em;
     margin-bottom: 2%
+}
+
+.coding_article{
+    background-color: #caedf8;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.coding_col_third{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .left_side{
@@ -158,3 +178,10 @@ header h1{
     width: 3%;
     height: auto;
 }
+
+.centreImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
