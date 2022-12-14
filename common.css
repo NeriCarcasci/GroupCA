@@ -1,0 +1,310 @@
+/* CSS below controls all pages body and nav tags */
+
+body{
+    margin: 0%;
+    background-color: #FFDDD2;
+}
+
+nav{
+    background-color: #83C5BE;
+}
+
+nav ul{
+    list-style: none;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+nav ul li{
+    background-color: #83C5BE;
+    padding: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav a{
+    font-size: x-large;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.currentPageTag {
+    /* CUURENT PAGE NAV COLOUR*/
+    background-color: #006D77;
+    
+    border-width: 0.05em;
+    border-radius: 15px;
+    border-bottom: solid;
+}
+
+.currentPageName {
+    /* CUURENT PAGE TEXT NAV COLOUR*/
+    color: #EDF6F9;
+    opacity: 0.6;
+}
+
+/* CSS below controls all pages header tags */
+
+header{
+    background-color: #caedf8;
+    padding: 10px;
+    margin-right: 30%;
+    margin-left: 30%;
+    text-align: center;
+    border-radius: 1em;
+}
+
+header h1{
+    font-style: italic;
+}
+
+/* CSS below controls Index.html */
+
+.index_article{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    margin-top: 1em;
+    margin-bottom: 2%
+}
+
+.index_article h3{
+    font-size:xx-large;
+    text-align: center;
+}
+
+.left_side{
+    background-color: #caedf8;
+    display: inline-block;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+
+.left_side ul{
+    background-color: #EDF6F9;
+    border: solid;
+    border-color: #FFDDD2;
+    border-radius: 1em;
+    border-width: 6px;
+    padding: 1em;
+}
+
+.left_side ul li{
+    list-style: none;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.left_side ul dl {
+    padding-bottom: 1em;
+}
+
+.left_side a{
+    font-size: larger;
+    text-decoration: none;
+    color: #000000;
+}
+
+.left_side a:hover{
+    color:#a51e56;
+    font-weight: bold;
+}
+
+.right_side{
+    background: #caedf8;
+    padding: 1%;
+    border-radius: 1em;
+}
+
+.right_side img{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.right_side ul{
+    list-style: none;
+    margin: 1em;
+    background-color: #EDF6F9;
+    border: solid;
+    border-color: #FFDDD2;
+    border-radius: 1em;
+    border-width: 6px;
+    padding: 1em;
+    font-size: large;
+}
+
+.right_side a{
+    text-decoration: none;
+    color: #be981a;
+}
+
+.right_side a:hover{
+    color:#a51e56;
+    font-weight: bold;
+}
+
+/* CSS below controls AboutUs.html*/
+
+.about_us_article{
+    margin: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.member_box{
+    border-radius: 1em;
+    background-color: #caedf8;
+    text-align: center;
+    margin: 1em;
+    max-width: 800px;
+    padding-bottom: 1em;
+}
+.member_box p{
+    background-color: #EDF6F9;
+    border: solid;
+    border-radius: 1em;
+    border-color: #FFDDD2;
+    border-width: 3px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.member_box ul{
+    background-color: #EDF6F9;
+    border: solid;
+    border-radius: 1em;
+    border-color: #FFDDD2;
+    border-width: 3px;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: 0;
+}
+
+.member_box ul li{
+    list-style: none;
+}
+
+.member_box a:hover{
+    color:#a51e56;
+    font-weight: bold;
+}
+
+.member_box a{
+    text-decoration: none;
+    color: #be981a;
+}
+
+.profile_pic{
+    width: 15%;
+    height: auto;
+
+}
+
+.socialTagLinkedin {
+    width: 5%;
+    height: auto;
+}
+.socialTagInstagram {
+    width: 3%;
+    height: auto;
+}
+
+/* CSS below controls Labs.html */
+
+.labs_article{
+    background-color: #caedf8;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 1em;
+    margin: 2em;
+}
+
+.labs_section{
+    background-color: #EDF6F9;
+    margin: 1em;
+    padding: 1em;
+    border: solid;
+    border-radius: 1em;
+    border-color: #FFDDD2;
+    border-width: 6px;
+}
+
+.labs_section ul{
+    max-width: fit-content;
+}
+
+.labs_images{
+    max-width: 500px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .labs_section {
+        scale: 55%;
+    }
+
+    
+}
+
+/* CSS below controls Coding.html */
+
+.coding_article{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+    margin-top: 1em;
+    margin-bottom: 2%
+}
+
+.coding_col_third{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.coding_article{
+    background-color: #caedf8;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.header_titlebox{
+    border-radius: 1em;
+    background-color: #caedf8;
+    padding: 10px;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+/*css below controls theory*/
+h5 {
+display: flex;
+vertical-align: top;
+background-color:#ffff ;
+border: 2px solid #caedf8 ;
+border-radius: 25px;
+padding: 1%;
+margin: 1em;
+font-size:large ;}
+
+.theory_img{width: 600px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 1em;
+background-color: #caedf8;
+padding: 10px;
+}
