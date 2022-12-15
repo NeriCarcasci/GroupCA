@@ -249,25 +249,11 @@ header h1{
 
 @media screen and (max-width: 500px) {
 
-    .labs_article {
-        max-width: 400px;
+    .labs_section {
+        scale: 55%;
     }
 
-    .labs_images{
-        max-width: 300px;
-    }  
-}
-
-
-@media screen and (max-width: 300px) {
-
-    .labs_article {
-        max-width: 260px;
-    }
-
-    .labs_images{
-        max-width: 160px;
-    }  
+    
 }
 
 /* CSS below controls Coding.html */
@@ -304,86 +290,34 @@ header h1{
     margin-left: 30%;
 }
 
-/* CSS below controls Theory.html */
+/* CSS controls Thoery.html */
 
 .theory_article{
+    background-color: #caedf8;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 5em;
+    border-radius: 6em;
 }
 
 .theory_section{
-    background-color: #caedf8;
-    margin: 2%;
-    border-radius: 1em;
-}
-
-.theory_article dl section{
     background-color: #EDF6F9;
-    padding: 1em;
+    padding: 2em;
     border: solid;
-    border-radius: 1em;
+    border-radius: 2em;
     border-color: #FFDDD2;
-    border-width: 6px;
-}
-
-.theory_section a{
-    text-decoration: none;
-    color: #be981a;
-}
-
-.theory_section a:hover{
-    color:#a51e56;
-    font-weight: bold;
-}
-
-.theory_article dl{
+    border-width: 10px;
     margin: 2em;
-    max-width: 500px;
 }
 
-.theory_article dt{
-    font-weight: bold;
-    font-size: large;
+.theory_section ul{
+    max-width: fit-content;
 }
 
-.theory_article h2{
-    text-align: center;
-}
-
-.theory_article img{
-    max-width: 480px;
-    margin-top: 1em;
-    border: solid;
-    border-radius: 1em;
-    border-color: #FFDDD2;
-    border-width: 6px;
+.theory_images{
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    background-color: #EDF6F9;
-}
-
-@media screen and (max-width: 500px) {
-
-    .theory_article {
-        max-width: 400px;
-    }
-
-    .theory_article img{
-        max-width: 300px;
-    }
-    
-}
-
-@media screen and (max-width: 300px) {
-
-    .theory_article {
-        max-width: 200px;
-    }
-
-    .theory_article img{
-        max-width: 180px;
-    }
-    
+    width: 50%;
 }
